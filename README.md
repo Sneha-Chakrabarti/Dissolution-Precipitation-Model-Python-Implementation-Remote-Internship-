@@ -22,7 +22,11 @@ Python implementation of a cellular automaton model for coupled mineral dissolut
 ├── channel_width_profile.py     # Extension: column-by-column width profiling
 ├── figures/                     # All output figures (PNG)
 ├── data/                        # Numerical results (CSV)
-└── task1_report.tex             # LaTeX report for Task 1
+├── task1_report.tex             # LaTeX report for Task 1
+│
+├── finite_size_scaling/         # Upcoming: S*(N) scaling across grid sizes
+├── phase02_abp_transport/       # Upcoming: ABP Langevin on CA-generated geometry
+└── phase03_coupled/             # Upcoming: coupled dissolution-transport
 ```
 
 ---
@@ -96,6 +100,22 @@ Measures the dissolved body width column by column, averaged over 6 seeds. Gives
 
 **Output figures:** `channel_width_profiles.png`, `channel_L_vs_S.png`, `channel_beta.png`  
 **Output data:** `data/channel_width.csv`
+
+---
+
+## Upcoming (directories reserved)
+
+### `finite_size_scaling/`
+
+Finite-size scaling of the spanning transition S*(N) across grid sizes.
+
+### `phase02_abp_transport/`
+
+Active Brownian particle Langevin dynamics on CA-generated pore geometry.
+
+### `phase03_coupled/`
+
+Coupled dissolution-transport: motile particle with dissolution budget.
 
 ---
 
